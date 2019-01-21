@@ -1,0 +1,99 @@
+/*
+Theme Name: Havas
+Author: Havas
+Author URI: 
+Description: Havas Theme
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. 
+Template: havasBase
+*/
+
+.skill{
+height: auto;
+}
+.portfolio-categories > a.data-link{
+    display: none;
+}
+.progress-container .progress {
+    background: rgb(223, 25, 66);
+}
+span.label {
+    font-size: 11px;
+}
+.university-imagen img{
+width:100%;
+height:auto;
+}
+.creciendo-lanorte img{
+width:100%;
+height:auto;
+}
+.subtitulo-trabajos{
+border-top: 1px solid;
+border-bottom: 1px solid;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.texto-br{
+text-align:justify;
+}
+.img-durex img{
+width:100%;
+}
+.img-quienes-somos img{
+width:85%;
+}
+div.steps h3.skill.fail {
+    background-color: rgb(226, 61, 78)!important;
+}
+div.steps h3.skill.pass {
+    background-color: #AADA34 !important;
+}
+span.label-important {
+    background-color: rgb(226, 61, 78)!important;
+}
+span.label-success {
+    background-color: rgb(170, 218, 52)!important;
+}
+span.label-warning {
+    background-color: rgb(204, 207, 192)!important;
+    font-size: 12px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+.resultset {
+    color: #FFF!important;
+    background-color: rgb(242, 242, 242)!important ;
+}
+#quiz-navigation {
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+}
+#quiz-navigation ul li a#show-submit-score{
+line-height: 21px;
+height: auto;
+padding: 7px 0px;
+font-size: 16px;
+}
+.texto-conocimiento.titulo h2,.texto-conocimiento.titulo p{
+color:rgb(226, 61, 78);
+}
+.fila-tabla-conocimiento h3{
+color:rgb(226, 61, 78);
+}
+.texto-conocimiento h3{
+color:rgb(226, 61, 78);
+}
+.texto-conocimiento li{
+margin-bottom:20px;
+}
+.texto-conocimiento ul ul{
+margin-left:35px;
+}
+
+@media only screen and (max-width:767px) {
+	.titulo-formulario-talento{
+	    margin-top:40px;
+         }
+
+}

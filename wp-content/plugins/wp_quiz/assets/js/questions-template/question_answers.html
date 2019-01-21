@@ -1,0 +1,24 @@
+<table class="form-table">
+<tbody>
+	<tr class="form-field form-required">
+		<th style="width:1%" nowrap=""><strong>Right Answer</strong></th>
+		<th><strong>Answer Content</strong></th>
+	</tr>
+	<tr ng-repeat="answer in answers">
+		<td>
+			<input type="hidden" name="data[Answer][id][]" value="{{answer.id}}">
+			<input type="radio" name="data[Answer][weight][]" ng-model="weight" value="{{$index}}" ng-model="weight">
+		</td>
+		<td>
+			<input type="text" name="data[Answer][name][]" value="{{answer.text}}" style="width:300px;">
+			<a ng-click="removeAnswer($index)" class="remove-answer" href="javascript:;;">x</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="text" ng-model="answerText" style="width:300px;" placeholder="add new answer here" required>
+			<input ng-click="addAnswer()" class="btn btn-primary" ng-disabled="myForm.$invalid" type="button" value="add">
+		</td>
+	</tr>
+</table>
+<br>

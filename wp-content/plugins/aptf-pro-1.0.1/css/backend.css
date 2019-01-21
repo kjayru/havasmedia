@@ -1,0 +1,323 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2015, 2:37:46 PM
+    Author     : AccessPress Twitter Feed Pro
+    */
+
+    .aptf-panel{
+    	background: #55ACEE;
+      border-radius: 15px 15px 0 0;
+      float: left;
+      width: 100%;
+    }
+    .aptf-header-wrapper {
+    	background: none repeat scroll 0 0 #55ACEE;
+    	border-bottom: 5px solid #20627b;
+    	border-radius: 15px 15px 0 0;
+    	color: #fff;
+    	height: 65px;
+    	position: relative;
+    }
+    .apsc-logo {
+    	float: left;
+    	padding: 15px 0 0 20px;
+    	width: auto;
+    }
+    .apsc-socials {
+    	left: 50%;
+    	margin-left: -100px;
+    	position: absolute;
+    	text-align: center;
+    	top: 5px;
+    	width: 200px;
+    }
+    .apsc-socials p {
+    	margin: 5px 0;
+    }
+    .aptf-header-wrapper .apsc-title {
+    	color: #fff;
+    	float: right;
+    	font-size: 20px;
+    	line-height: 65px;
+    	padding: 0 20px 0 0;
+    }
+    .aptf-nav{
+      border-left: 1px solid #55ACEE;
+      float: left;
+      margin-bottom: 52px;
+      position: relative;
+      width: 20%;
+      box-sizing:border-box;
+    }
+    .aptf-nav ul{
+    	margin: 0; 
+    }
+    .aptf-nav li{
+      margin-bottom: 0;            
+    }
+    .aptf-nav li a{
+     background-color: #55ACEE;
+     border-bottom: 1px solid #CCC;
+     color: white;
+     display: block;
+     font-family: "Ubuntu",sans-serif;
+     font-size: 13px;
+     font-weight: bold;
+     margin: 0;
+     outline: 0 none;
+     padding: 12px 23px;
+     text-decoration: none;
+     text-transform: uppercase;
+   }
+   .aptf-nav li a:hover, 
+   .aptf-nav li a.aptf-active-trigger{
+    background: #FFF;
+    color: #55ACEE;
+  }
+  .aptf-board-wrapper{
+   background: none repeat scroll 0 0 #fff;
+   border-bottom: 1px solid #55ACEE;
+   border-right: 1px solid #55ACEE;
+   float: left;
+   min-height: 515px;
+   padding: 10px 25px !important;
+   width: 80%;
+   box-sizing:border-box;
+ }
+ .aptf-theme-preview{
+    border:1px solid #ccc;
+    margin-top:10px;
+
+ }
+ .aptf-single-board-wrapper h3{
+   font-size: 23px;
+   font-weight: 400;
+   line-height: 29px;
+   margin: 0;
+   padding: 0 15px 9px 0;
+ }
+ .aptf-option-wrapper{
+   border-bottom: 1px solid #ddd;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+ }
+ .aptf-option-wrapper label{
+   display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 5px 5px 5px 0;
+    vertical-align: top;
+    width: 195px;
+ }
+ .aptf-option-field, 
+ .aptf-fields-configurations {
+   display: inline-block;
+   width: calc(100% - 205px);
+ }
+ .aptf-option-field label{
+   width: 100%;
+ }
+ .aptf-option-field label span{
+   color: #666666;
+   display: inline-block;
+   font-size: 12px;
+   font-style: italic;
+   margin-left: 2px;
+ }
+ .aptf-option-note {
+   color: #666666;
+    display: inline-block;
+    font-style: italic;
+    line-height: 1.6;
+    margin-left: 2px;
+    padding-top: 5px;
+    width: calc( 100% - 26px );
+ }
+ .aptf-option-note a{
+   padding: 0 3px;
+ }
+
+ .aptf-message{
+  background-color: #EEE;
+  border-left: 4px solid #55ACEE;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  padding: 11px 15px;
+  text-align: left;
+}
+.aptf-option-field > input[type="text"],
+.aptf-option-field > input[type="number"] {
+  width: 100%;
+}
+.aptf-option-field > input[type="checkbox"] {
+    margin-top: 8px;
+    vertical-align: top;
+}
+.social-icon li{
+  display: inline-block;
+}
+.aptf-board-wrapper .button-primary{
+  background: #55acee !important;
+  border-color: #2B99EA !important;
+}
+.seperator{
+  padding-bottom: 10px;
+}
+.dottedline{
+  border-bottom: 1px dotted #CCC;
+}
+#aptf-about-board h3{
+  padding-bottom: 0;
+}
+.aptf-more-title {
+  background: none repeat scroll 0 0 #f1f1f1;
+  color: #141414;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  width: 100%;
+}
+.aptf-about-wrapper .aptf-title {
+  background: none repeat scroll 0 0 #55ACEE;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 0 0 16px;
+  padding: 0 15px;
+}
+
+.aptf-more-product > li {
+  float: left;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.aptf-more-product > li a{
+    text-decoration: none;
+}
+
+.aptf-about-social > li {
+  float: left;
+  text-align: center;
+  width: 16.66%;
+}
+
+
+.aptf-about-social .fa {
+  color: #ffffff;
+  display: block;
+  font-size: 35px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  -webkit-transition: background 0.5s ease 0s;
+  -moz-transition: background 0.5s ease 0s;
+  -ms-transition: background 0.5s ease 0s;
+  transition: background 0.5s ease 0s;
+  width: 50px;
+}
+
+.aptf-about-social a{
+    display: block;
+    text-decoration: none;
+}
+
+.aptf-about-social .fb .fa{
+    background: #3d5c99; 
+}
+
+.aptf-about-social .twt .fa{
+    background: #2aa8dd; 
+}
+
+.aptf-about-social .gp .fa{
+    background: #cc3838; 
+}
+
+.aptf-about-social .utube .fa{
+    background: #cc3535; 
+}
+
+.aptf-about-social .skype .fa{
+    background: #1eb2ef; 
+}
+
+.aptf-about-social .pin .fa{
+    background: #c8232f; 
+}
+
+.aptf-about-social .fb .fa:hover{
+    background: #354e80; 
+}
+
+.aptf-about-social .twt .fa:hover{
+    background: #2593c3; 
+}
+
+.aptf-about-social .gp .fa:hover{
+    background: #9f3535; 
+}
+
+.aptf-about-social .utube .fa:hover{
+    background: #b03434; 
+}
+
+.aptf-about-social .skype .fa:hover{
+    background: #118dc0; 
+}
+
+.aptf-about-social .pin .fa:hover{
+    background: #a6212b; 
+}
+
+.aptf-about-social span {
+  color: #141414;
+  display: block;
+  font-size: 15px;
+  line-height: 10px;
+  margin: 10px 0;
+}
+
+.aptf-about-social span .bold {
+  display: block;
+  font-weight: 700;
+}
+
+
+.social-iframe {
+  padding: 20px;
+}
+
+.social-iframe iframe {
+  width: 100% !important;
+}
+
+.prod-title {
+  color: #141414;
+  display: block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 20px auto;
+  text-decoration: none;
+  width: 40%;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
