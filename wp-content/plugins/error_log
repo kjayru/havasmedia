@@ -1,3 +1,0 @@
-[31-May-2018 13:56:02 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home3/havasmedia/public_html/havasgroup.pe/wp-content/plugins/hello.php on line 60
-[10-Jun-2018 14:11:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home3/havasmedia/public_html/havasgroup.pe/wp-content/plugins/hello.php on line 60
-[10-Jun-2018 14:11:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home3/havasmedia/public_html/havasgroup.pe/wp-content/plugins/hello.php on line 60

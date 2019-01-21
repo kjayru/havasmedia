@@ -1,1 +1,0 @@
-[23-Jun-2016 10:49:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home3/havasmedia/public_html/wp-content/plugins/wp_quiz/ajax.php on line 77

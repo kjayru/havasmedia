@@ -1,3 +1,0 @@
-[23-Jun-2016 10:39:03 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/havasmedia/public_html/wp-includes/rss-functions.php on line 8
-[20-Jan-2017 03:18:22 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/havasmedia/public_html/havasgroup.pe/wp-includes/registration-functions.php on line 7
-[25-Mar-2017 13:14:18 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/havasmedia/public_html/havasgroup.pe/wp-includes/registration-functions.php on line 7
